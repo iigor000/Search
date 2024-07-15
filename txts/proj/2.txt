@@ -1,0 +1,12 @@
+Logički operator NOT se u ovom slučaju smatra BINARNIM dakle, predviđa se
+upotreba u obliku 'reč1 NOT reč2' gde se pojavljivanje reči reč1 zahteva u rešenju dok
+se reč2 u rešenju ne sme pojaviti.
+Opšte informacije o slanju i upload-u zadatka:
+• Zadatak nosi 25 poena.
+• Smestiti sve fajlove zadatka u folder pod nazivom projekat2_sv_XX_YYYY gde se umesto
+XX_YYYY navodi broj indeksa - broj upisa i godina upisa (primer: projekat2_sv_02_2023)
+• Ubaciti fajl u zip arhivu i nazvati je isto kao i zadatak (projekat2_sv_XX_YYYY.zip)
+• Uploadovati zip arhivu kao assignment na enastavu.
+• Ukoliko bude problema sa uploadom, možete u predviđenom roku poslati zip na email adresu
+predmetnog asistenta.
+Rok za slanje arhive je 28.06.2024.

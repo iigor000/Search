@@ -1,0 +1,40 @@
+Drugi projekat
+Potrebno je napraviti mašinu za pretraživanje jednog dokumenta u pdf formatu (search
+engine). Program prilikom startovanja treba da obiđe pdf dokument, da parsira stranice
+u njemu i da izgradi strukture podataka potrebne za efikasno pretraživanje. Nakon
+toga, program omogućuje korisniku da unosi tekstualne upite koji se sastoje od jedne
+ili više reči razdvojenih razmakom, pretražuje stranice koristeći prethodno kreiranu
+strukturu podataka i korisniku ispisuje rangirane rezultate pretrage.
+Kao test fajl koristiti knjigu 'Data Structures and Algorithms in Python' (nalazi se u
+Files/Literatura).
+Za maksimalnih 10 poena:
+• (4 poena) Rezultati treba da sadrže redni broj rezultata, redni broj stranice, kao
+i kratak kontekst (isečak iz dela stranice) u kome je tražena reč pronađena.
+Poželjno je da tražena reč (ili više njih) bude označena u isečku (npr. bojenjem
+konzolnog ispisa).
+● (2 poena) Implementirati rangiranje rezultata pretrage tako da na rang rezultata
+utiče broj pojavljivanja traženih reči na stranici uz korišćenje proizvoljnih
+struktura podataka.
+● (2 poena) Ukoliko korisnik unosi upit sastavljen od više reči, vršiti rangiranje
+stranica tako da pojavljivanje svake od reči utiče na sveukupno rangiranje
+određene stranice. U ovom slučaju, ne treba insistirati na prisustvu svake od
+reči u rezultatima, ali bi trebalo bolje rangirati rezultate u kojima se pojavljuju
+sve reči.
+● (2 poena) U cilju podrške traženim operacijama, obezbediti konzolni meni.
+Korisniku se nude opcija da započne pretragu. Posebne vrste pretrage ne treba
+da budu dodatne opcije u meniju već korisnik samim načinom unosa sugeriše
+koja vrsta pretrage treba da se izvrši (uvođenjem navodnika ili zvezdice,
+navođenjem više reči...).
+● Umesto pdf dokumenta, za formiranje struktura se mogu koristiti već parsirani
+txt fajlovi (iz Files/Projekat 2).
+Za maksimalnih 17 poena
+Za maksimalnih 17 poena potrebno je realizovati sve tačke za 10 poena i još:
+● (2 poena) Na rangiranje, osim broja pojavljivanja traženih reči na stranici, treba
+da utiče i broj veza sa drugih stranica kao i broj traženih reči na stranicama koji
+sadrže vezu na traženu stranicu. Veze ka stranicama se mogu prepoznati na
+osnovu napomena u tekstu (npr. 'See page 136', '... on page 87', see pages 34
+and 35').
+● (3 poena) Za organizovanje stranica koristiti graf.
+● (2 poena) Za efikasnu pretragu reči na stranici koristiti strukturu podataka trie.
+Za više od 17 poena potrebno je obezbediti učitavanje sadržaja iz pdf fajla uz pomoć
+neke od biblioteka za rad sa pdf dokumentima.

@@ -1,0 +1,42 @@
+Za maksimalnih 21 poen
+Za maksimalnih 21 poena potrebno je realizovati sve tačke za 10 poena, sve tačke za
+17 poena i još:
+● (1 poen) Serijalizacija: U cilju efikasnijeg izvršavanja operacija, omogućiti
+serijalizaciju formiranih struktura podataka kako se ne bi trošilo vreme za
+njihovo rekreiranje prilikom svakog pokretanja.
+● (2 poena) Potrebno je podržati ispravnu upotrebu logičkih operatora AND, OR
+i NOT prilikom formiranja upita uz kombinovanje operatora.
+Primeri:
+python AND sequence
+dictionary NOT list
+python OR dictionary NOT word
+● (1 poen) Obezbediti paginaciju rezultata. Ograničiti broj ispisa po stranici na N
+(rezultati od 1 do N) uz nuđenje opcije za ispis sledećih N rezultata (od N+1 do
+2N) itd.
+Za više od 21 poen
+• (1 poena) Upotreba fraza. Fraza se navodi pod navodnicima. U rezultatima se
+prikazuju (uz rangiranje) stranice u kojima se navedeni delovi fraze pojavljuju
+uzastopno u istom redosledu.
+• (1 poena) Implementacija predlaganja alternativnih ključnih reči za pretragu (did
+you mean). Ukoliko rezultata pretrage nema (nema rangiranih stranica) ili se zadati
+upit pojavljuje na malom broju stranica, ponuditi korisniku da zadati upit zameni
+sličnim, popularnijim upitom.
+• (1 poen) Implementirati grupisanje operatora AND, OR i NOT pomoću zagrada.
+• (1 poena) Autocomplete. Odabirom ove opcije, korisniku se nudi nekoliko
+popularnih završetaka zadatog upita, npr. ako korisnik unese fun* ponuđene opcije
+mogu biti functionality i function (u case insensitive režimu).
+Poeni za dodatne funkcionalnosti se mogu osvojiti samo u slučaju implementacije
+zadataka za više od 22 poena.
+. Za većinu dodatnih funkcionalnosti potrebno je istražiti mogućnosti drugih biblioteka
+za rad sa pdf dokumentima.
+Primeri:
+● 1 poen - Čuvanje rezultata pretrage u obliku pdf-a. Izdvojiti stranice prvih 10
+rezultata i objediniti ih u poseban pdf fajl.
+● 2 poena - Označiti (pdf highlighting) bojom pronađene ključne reči (kao u
+drugom pasusu) u pdf dokumentu sačinjenom objedinjavanjem stranica.
+● Druge funkcionalnosti koje predmetni profesor ili asistent odobre.
+Dodatna objašnjenja:
+Logički operator AND zahteva prisustvo svih navedenih reči u stranicama koje su u
+rešenju. Sve navedene reči bi trebalo u jednakoj meri da utiču na ukupan rang.
+Logički operator OR zahteva prisustvo bar jedne od navedenih reči u stranicama koje
+predstavljaju rešenje.
